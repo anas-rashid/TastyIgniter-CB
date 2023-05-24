@@ -1,0 +1,955 @@
+.++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++.
+.------------------- TASTYIGNITER SETUP LOG ------------------.
+.++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++.
+[2023/05/22 03:42:07] => Host: Darwin RS-C02F36U1MD6R 22.4.0 Darwin Kernel Version 22.4.0: Mon Mar  6 21:00:17 PST 2023; root:xnu-8796.101.5~3/RELEASE_X86_64 x86_64
+[2023/05/22 03:42:07] => PHP version: 8.2.6
+[2023/05/22 03:42:07] => Server software: PHP 8.2.6 Development Server
+[2023/05/22 03:42:07] => Operating system: Darwin
+[2023/05/22 03:42:07] => Memory limit: 128M
+[2023/05/22 03:42:07] => Max execution time: 30
+[2023/05/22 03:42:11] => .============================ POST REQUEST ==========================.
+[2023/05/22 03:42:11] => Postback payload: Array
+(
+    [license_agreed] => accepted
+    [code] => php
+    [handler] => onCheckRequirements
+)
+
+[2023/05/22 03:42:11] => System check: php
+[2023/05/22 03:42:11] => Requirement php +OK
+[2023/05/22 03:42:11] => Execute handler (onCheckRequirements): Array
+(
+    [result] => 1
+)
+
+[2023/05/22 03:42:13] => .============================ POST REQUEST ==========================.
+[2023/05/22 03:42:13] => Postback payload: Array
+(
+    [license_agreed] => accepted
+    [code] => pdo
+    [handler] => onCheckRequirements
+)
+
+[2023/05/22 03:42:13] => System check: pdo
+[2023/05/22 03:42:13] => Requirement pdo +OK
+[2023/05/22 03:42:13] => Execute handler (onCheckRequirements): Array
+(
+    [result] => 1
+)
+
+[2023/05/22 03:42:14] => .============================ POST REQUEST ==========================.
+[2023/05/22 03:42:14] => Postback payload: Array
+(
+    [license_agreed] => accepted
+    [code] => curl
+    [handler] => onCheckRequirements
+)
+
+[2023/05/22 03:42:14] => System check: curl
+[2023/05/22 03:42:14] => Requirement curl +OK
+[2023/05/22 03:42:14] => Execute handler (onCheckRequirements): Array
+(
+    [result] => 1
+)
+
+[2023/05/22 03:42:16] => .============================ POST REQUEST ==========================.
+[2023/05/22 03:42:16] => Postback payload: Array
+(
+    [license_agreed] => accepted
+    [code] => connection
+    [handler] => onCheckRequirements
+)
+
+[2023/05/22 03:42:16] => System check: connection
+[2023/05/22 03:42:16] => Server request: ping
+[2023/05/22 03:42:16] => Request information: Array
+(
+    [url] => https://api.tastyigniter.com/v2/ping
+    [content_type] => application/json
+    [http_code] => 200
+    [header_size] => 807
+    [request_size] => 135
+    [filetime] => -1
+    [ssl_verify_result] => 20
+    [redirect_count] => 0
+    [total_time] => 0.14312
+    [namelookup_time] => 0.00992
+    [connect_time] => 0.017876
+    [pretransfer_time] => 0.033606
+    [size_upload] => 139
+    [size_download] => 17
+    [speed_download] => 118
+    [speed_upload] => 971
+    [download_content_length] => 17
+    [upload_content_length] => 139
+    [starttransfer_time] => 0.033617
+    [redirect_time] => 0
+    [redirect_url] => 
+    [primary_ip] => 104.21.5.26
+    [certinfo] => Array
+        (
+        )
+
+    [primary_port] => 443
+    [local_ip] => 10.50.100.59
+    [local_port] => 57171
+    [http_version] => 3
+    [protocol] => 2
+    [ssl_verifyresult] => 0
+    [scheme] => HTTPS
+    [appconnect_time_us] => 32428
+    [connect_time_us] => 17876
+    [namelookup_time_us] => 9920
+    [pretransfer_time_us] => 33606
+    [redirect_time_us] => 0
+    [starttransfer_time_us] => 33617
+    [total_time_us] => 143120
+    [effective_method] => POST
+)
+
+[2023/05/22 03:42:16] => Requirement connection +OK
+[2023/05/22 03:42:16] => Execute handler (onCheckRequirements): Array
+(
+    [result] => 1
+)
+
+[2023/05/22 03:42:17] => .============================ POST REQUEST ==========================.
+[2023/05/22 03:42:17] => Postback payload: Array
+(
+    [license_agreed] => accepted
+    [code] => mbstring
+    [handler] => onCheckRequirements
+)
+
+[2023/05/22 03:42:17] => System check: mbstring
+[2023/05/22 03:42:17] => Requirement mbstring +OK
+[2023/05/22 03:42:17] => Execute handler (onCheckRequirements): Array
+(
+    [result] => 1
+)
+
+[2023/05/22 03:42:19] => .============================ POST REQUEST ==========================.
+[2023/05/22 03:42:19] => Postback payload: Array
+(
+    [license_agreed] => accepted
+    [code] => ssl
+    [handler] => onCheckRequirements
+)
+
+[2023/05/22 03:42:19] => System check: ssl
+[2023/05/22 03:42:19] => Requirement ssl +OK
+[2023/05/22 03:42:19] => Execute handler (onCheckRequirements): Array
+(
+    [result] => 1
+)
+
+[2023/05/22 03:42:20] => .============================ POST REQUEST ==========================.
+[2023/05/22 03:42:20] => Postback payload: Array
+(
+    [license_agreed] => accepted
+    [code] => gd
+    [handler] => onCheckRequirements
+)
+
+[2023/05/22 03:42:20] => System check: gd
+[2023/05/22 03:42:20] => Requirement gd +OK
+[2023/05/22 03:42:20] => Execute handler (onCheckRequirements): Array
+(
+    [result] => 1
+)
+
+[2023/05/22 03:42:22] => .============================ POST REQUEST ==========================.
+[2023/05/22 03:42:22] => Postback payload: Array
+(
+    [license_agreed] => accepted
+    [code] => zip
+    [handler] => onCheckRequirements
+)
+
+[2023/05/22 03:42:22] => System check: zip
+[2023/05/22 03:42:22] => Requirement zip +OK
+[2023/05/22 03:42:22] => Execute handler (onCheckRequirements): Array
+(
+    [result] => 1
+)
+
+[2023/05/22 03:42:23] => .============================ POST REQUEST ==========================.
+[2023/05/22 03:42:23] => Postback payload: Array
+(
+    [license_agreed] => accepted
+    [code] => writable
+    [handler] => onCheckRequirements
+)
+
+[2023/05/22 03:42:23] => System check: writable
+[2023/05/22 03:42:23] => Requirement writable +OK
+[2023/05/22 03:42:23] => Execute handler (onCheckRequirements): Array
+(
+    [result] => 1
+)
+
+[2023/05/22 03:42:28] => .============================ POST REQUEST ==========================.
+[2023/05/22 03:42:28] => Postback payload: Array
+(
+    [license_agreed] => accepted
+    [requirement] => complete
+    [handler] => onCompleteRequirements
+)
+
+[2023/05/22 03:42:28] => License Agreement: accepted
+[2023/05/22 03:42:28] => Execute handler (onCompleteRequirements): Array
+(
+    [step] => database
+)
+
+[2023/05/22 03:42:35] => .============================ POST REQUEST ==========================.
+[2023/05/22 03:42:35] => Postback payload: Array
+(
+    [disableLog] => 1
+)
+
+[2023/05/22 03:42:35] => Database check: TastyIgniterS
+[2023/05/22 03:42:35] => Handler error (onCheckDatabase): Connection failed: SQLSTATE[HY000] [1049] Unknown database 'tastyigniters'
+[2023/05/22 03:42:35] => Trace log:
+#0 /Users/mrashi02/setup-master/setup/classes/SetupController.php(138): SetupController->testDbConnection(Array)
+#1 /Users/mrashi02/setup-master/setup/classes/SetupController.php(281): SetupController->onCheckDatabase()
+#2 /Users/mrashi02/setup-master/setup/classes/SetupController.php(46): SetupController->execPostHandler()
+#3 /Users/mrashi02/setup-master/setup/bootstrap.php(62): SetupController->__construct()
+#4 /Users/mrashi02/setup-master/setup.php(1): include_once('/Users/mrashi02...')
+#5 {main}
+[2023/05/22 03:42:37] => .============================ POST REQUEST ==========================.
+[2023/05/22 03:42:37] => Postback payload: Array
+(
+    [disableLog] => 1
+)
+
+[2023/05/22 03:42:37] => Database check: TastyIgniterS
+[2023/05/22 03:42:37] => Handler error (onCheckDatabase): Connection failed: SQLSTATE[HY000] [1049] Unknown database 'tastyigniters'
+[2023/05/22 03:42:37] => Trace log:
+#0 /Users/mrashi02/setup-master/setup/classes/SetupController.php(138): SetupController->testDbConnection(Array)
+#1 /Users/mrashi02/setup-master/setup/classes/SetupController.php(281): SetupController->onCheckDatabase()
+#2 /Users/mrashi02/setup-master/setup/classes/SetupController.php(46): SetupController->execPostHandler()
+#3 /Users/mrashi02/setup-master/setup/bootstrap.php(62): SetupController->__construct()
+#4 /Users/mrashi02/setup-master/setup.php(1): include_once('/Users/mrashi02...')
+#5 {main}
+[2023/05/22 03:42:46] => .============================ POST REQUEST ==========================.
+[2023/05/22 03:42:46] => Postback payload: Array
+(
+    [disableLog] => 1
+)
+
+[2023/05/22 03:42:46] => Database check: TastyIgniter
+[2023/05/22 03:42:46] => Handler error (onCheckDatabase): Connection failed: SQLSTATE[HY000] [1049] Unknown database 'tastyigniter'
+[2023/05/22 03:42:46] => Trace log:
+#0 /Users/mrashi02/setup-master/setup/classes/SetupController.php(138): SetupController->testDbConnection(Array)
+#1 /Users/mrashi02/setup-master/setup/classes/SetupController.php(281): SetupController->onCheckDatabase()
+#2 /Users/mrashi02/setup-master/setup/classes/SetupController.php(46): SetupController->execPostHandler()
+#3 /Users/mrashi02/setup-master/setup/bootstrap.php(62): SetupController->__construct()
+#4 /Users/mrashi02/setup-master/setup.php(1): include_once('/Users/mrashi02...')
+#5 {main}
+[2023/05/22 03:42:46] => .============================ POST REQUEST ==========================.
+[2023/05/22 03:42:46] => Postback payload: Array
+(
+    [disableLog] => 1
+)
+
+[2023/05/22 03:42:46] => Database check: TastyIgniter
+[2023/05/22 03:42:46] => Handler error (onCheckDatabase): Connection failed: SQLSTATE[HY000] [1049] Unknown database 'tastyigniter'
+[2023/05/22 03:42:46] => Trace log:
+#0 /Users/mrashi02/setup-master/setup/classes/SetupController.php(138): SetupController->testDbConnection(Array)
+#1 /Users/mrashi02/setup-master/setup/classes/SetupController.php(281): SetupController->onCheckDatabase()
+#2 /Users/mrashi02/setup-master/setup/classes/SetupController.php(46): SetupController->execPostHandler()
+#3 /Users/mrashi02/setup-master/setup/bootstrap.php(62): SetupController->__construct()
+#4 /Users/mrashi02/setup-master/setup.php(1): include_once('/Users/mrashi02...')
+#5 {main}
+[2023/05/22 03:42:49] => .============================ POST REQUEST ==========================.
+[2023/05/22 03:42:49] => Postback payload: Array
+(
+    [disableLog] => 1
+)
+
+[2023/05/22 03:42:49] => Database check: TastyIgniter
+[2023/05/22 03:42:49] => Handler error (onCheckDatabase): Connection failed: SQLSTATE[HY000] [1049] Unknown database 'tastyigniter'
+[2023/05/22 03:42:49] => Trace log:
+#0 /Users/mrashi02/setup-master/setup/classes/SetupController.php(138): SetupController->testDbConnection(Array)
+#1 /Users/mrashi02/setup-master/setup/classes/SetupController.php(281): SetupController->onCheckDatabase()
+#2 /Users/mrashi02/setup-master/setup/classes/SetupController.php(46): SetupController->execPostHandler()
+#3 /Users/mrashi02/setup-master/setup/bootstrap.php(62): SetupController->__construct()
+#4 /Users/mrashi02/setup-master/setup.php(1): include_once('/Users/mrashi02...')
+#5 {main}
+[2023/05/22 03:42:57] => .============================ POST REQUEST ==========================.
+[2023/05/22 03:42:57] => Postback payload: Array
+(
+    [disableLog] => 1
+)
+
+[2023/05/22 03:42:57] => Database check: tastyigniter
+[2023/05/22 03:42:57] => Handler error (onCheckDatabase): Connection failed: SQLSTATE[HY000] [1049] Unknown database 'tastyigniter'
+[2023/05/22 03:42:57] => Trace log:
+#0 /Users/mrashi02/setup-master/setup/classes/SetupController.php(138): SetupController->testDbConnection(Array)
+#1 /Users/mrashi02/setup-master/setup/classes/SetupController.php(281): SetupController->onCheckDatabase()
+#2 /Users/mrashi02/setup-master/setup/classes/SetupController.php(46): SetupController->execPostHandler()
+#3 /Users/mrashi02/setup-master/setup/bootstrap.php(62): SetupController->__construct()
+#4 /Users/mrashi02/setup-master/setup.php(1): include_once('/Users/mrashi02...')
+#5 {main}
+[2023/05/22 03:43:00] => .============================ POST REQUEST ==========================.
+[2023/05/22 03:43:00] => Postback payload: Array
+(
+    [disableLog] => 1
+)
+
+[2023/05/22 03:43:00] => Database check: 
+[2023/05/22 03:43:00] => Handler error (onCheckDatabase): Please specify the database name
+[2023/05/22 03:43:00] => Trace log:
+#0 /Users/mrashi02/setup-master/setup/classes/SetupController.php(281): SetupController->onCheckDatabase()
+#1 /Users/mrashi02/setup-master/setup/classes/SetupController.php(46): SetupController->execPostHandler()
+#2 /Users/mrashi02/setup-master/setup/bootstrap.php(62): SetupController->__construct()
+#3 /Users/mrashi02/setup-master/setup.php(1): include_once('/Users/mrashi02...')
+#4 {main}
+[2023/05/22 03:43:05] => .============================ POST REQUEST ==========================.
+[2023/05/22 03:43:05] => Postback payload: Array
+(
+    [disableLog] => 1
+)
+
+[2023/05/22 03:43:05] => Database check: TastyIgniter
+[2023/05/22 03:43:05] => Handler error (onCheckDatabase): Connection failed: SQLSTATE[HY000] [1049] Unknown database 'tastyigniter'
+[2023/05/22 03:43:05] => Trace log:
+#0 /Users/mrashi02/setup-master/setup/classes/SetupController.php(138): SetupController->testDbConnection(Array)
+#1 /Users/mrashi02/setup-master/setup/classes/SetupController.php(281): SetupController->onCheckDatabase()
+#2 /Users/mrashi02/setup-master/setup/classes/SetupController.php(46): SetupController->execPostHandler()
+#3 /Users/mrashi02/setup-master/setup/bootstrap.php(62): SetupController->__construct()
+#4 /Users/mrashi02/setup-master/setup.php(1): include_once('/Users/mrashi02...')
+#5 {main}
+[2023/05/22 03:43:25] => .============================ POST REQUEST ==========================.
+[2023/05/22 03:43:25] => Postback payload: Array
+(
+    [disableLog] => 1
+)
+
+[2023/05/22 03:43:25] => Database check: tastyigniter
+[2023/05/22 03:43:25] => Handler error (onCheckDatabase): Connection failed: SQLSTATE[HY000] [1045] Access denied for user ''@'localhost' (using password: YES)
+[2023/05/22 03:43:25] => Trace log:
+#0 /Users/mrashi02/setup-master/setup/classes/SetupController.php(138): SetupController->testDbConnection(Array)
+#1 /Users/mrashi02/setup-master/setup/classes/SetupController.php(281): SetupController->onCheckDatabase()
+#2 /Users/mrashi02/setup-master/setup/classes/SetupController.php(46): SetupController->execPostHandler()
+#3 /Users/mrashi02/setup-master/setup/bootstrap.php(62): SetupController->__construct()
+#4 /Users/mrashi02/setup-master/setup.php(1): include_once('/Users/mrashi02...')
+#5 {main}
+[2023/05/22 03:43:30] => .============================ POST REQUEST ==========================.
+[2023/05/22 03:43:30] => Postback payload: Array
+(
+    [disableLog] => 1
+)
+
+[2023/05/22 03:43:30] => Database check: tastyigniter
+[2023/05/22 03:43:30] => Handler error (onCheckDatabase): Connection failed: SQLSTATE[HY000] [1049] Unknown database 'tastyigniter'
+[2023/05/22 03:43:30] => Trace log:
+#0 /Users/mrashi02/setup-master/setup/classes/SetupController.php(138): SetupController->testDbConnection(Array)
+#1 /Users/mrashi02/setup-master/setup/classes/SetupController.php(281): SetupController->onCheckDatabase()
+#2 /Users/mrashi02/setup-master/setup/classes/SetupController.php(46): SetupController->execPostHandler()
+#3 /Users/mrashi02/setup-master/setup/bootstrap.php(62): SetupController->__construct()
+#4 /Users/mrashi02/setup-master/setup.php(1): include_once('/Users/mrashi02...')
+#5 {main}
+[2023/05/22 03:43:35] => .============================ POST REQUEST ==========================.
+[2023/05/22 03:43:35] => Postback payload: Array
+(
+    [disableLog] => 1
+)
+
+[2023/05/22 03:43:35] => Database check: tastyigniter
+[2023/05/22 03:43:35] => Handler error (onCheckDatabase): Connection failed: SQLSTATE[HY000] [1049] Unknown database 'tastyigniter'
+[2023/05/22 03:43:35] => Trace log:
+#0 /Users/mrashi02/setup-master/setup/classes/SetupController.php(138): SetupController->testDbConnection(Array)
+#1 /Users/mrashi02/setup-master/setup/classes/SetupController.php(281): SetupController->onCheckDatabase()
+#2 /Users/mrashi02/setup-master/setup/classes/SetupController.php(46): SetupController->execPostHandler()
+#3 /Users/mrashi02/setup-master/setup/bootstrap.php(62): SetupController->__construct()
+#4 /Users/mrashi02/setup-master/setup.php(1): include_once('/Users/mrashi02...')
+#5 {main}
+[2023/05/22 03:43:36] => .============================ POST REQUEST ==========================.
+[2023/05/22 03:43:36] => Postback payload: Array
+(
+    [disableLog] => 1
+)
+
+[2023/05/22 03:43:36] => Database check: tastyigniter
+[2023/05/22 03:43:36] => Handler error (onCheckDatabase): Connection failed: SQLSTATE[HY000] [1049] Unknown database 'tastyigniter'
+[2023/05/22 03:43:36] => Trace log:
+#0 /Users/mrashi02/setup-master/setup/classes/SetupController.php(138): SetupController->testDbConnection(Array)
+#1 /Users/mrashi02/setup-master/setup/classes/SetupController.php(281): SetupController->onCheckDatabase()
+#2 /Users/mrashi02/setup-master/setup/classes/SetupController.php(46): SetupController->execPostHandler()
+#3 /Users/mrashi02/setup-master/setup/bootstrap.php(62): SetupController->__construct()
+#4 /Users/mrashi02/setup-master/setup.php(1): include_once('/Users/mrashi02...')
+#5 {main}
+[2023/05/22 03:43:36] => .============================ POST REQUEST ==========================.
+[2023/05/22 03:43:36] => Postback payload: Array
+(
+    [disableLog] => 1
+)
+
+[2023/05/22 03:43:36] => Database check: tastyigniter
+[2023/05/22 03:43:36] => Handler error (onCheckDatabase): Connection failed: SQLSTATE[HY000] [1049] Unknown database 'tastyigniter'
+[2023/05/22 03:43:36] => Trace log:
+#0 /Users/mrashi02/setup-master/setup/classes/SetupController.php(138): SetupController->testDbConnection(Array)
+#1 /Users/mrashi02/setup-master/setup/classes/SetupController.php(281): SetupController->onCheckDatabase()
+#2 /Users/mrashi02/setup-master/setup/classes/SetupController.php(46): SetupController->execPostHandler()
+#3 /Users/mrashi02/setup-master/setup/bootstrap.php(62): SetupController->__construct()
+#4 /Users/mrashi02/setup-master/setup.php(1): include_once('/Users/mrashi02...')
+#5 {main}
+[2023/05/22 03:43:36] => .============================ POST REQUEST ==========================.
+[2023/05/22 03:43:36] => Postback payload: Array
+(
+    [disableLog] => 1
+)
+
+[2023/05/22 03:43:36] => Database check: tastyigniter
+[2023/05/22 03:43:36] => Handler error (onCheckDatabase): Connection failed: SQLSTATE[HY000] [1049] Unknown database 'tastyigniter'
+[2023/05/22 03:43:36] => Trace log:
+#0 /Users/mrashi02/setup-master/setup/classes/SetupController.php(138): SetupController->testDbConnection(Array)
+#1 /Users/mrashi02/setup-master/setup/classes/SetupController.php(281): SetupController->onCheckDatabase()
+#2 /Users/mrashi02/setup-master/setup/classes/SetupController.php(46): SetupController->execPostHandler()
+#3 /Users/mrashi02/setup-master/setup/bootstrap.php(62): SetupController->__construct()
+#4 /Users/mrashi02/setup-master/setup.php(1): include_once('/Users/mrashi02...')
+#5 {main}
+[2023/05/22 03:43:36] => .============================ POST REQUEST ==========================.
+[2023/05/22 03:43:36] => Postback payload: Array
+(
+    [disableLog] => 1
+)
+
+[2023/05/22 03:43:36] => Database check: tastyigniter
+[2023/05/22 03:43:36] => Handler error (onCheckDatabase): Connection failed: SQLSTATE[HY000] [1049] Unknown database 'tastyigniter'
+[2023/05/22 03:43:36] => Trace log:
+#0 /Users/mrashi02/setup-master/setup/classes/SetupController.php(138): SetupController->testDbConnection(Array)
+#1 /Users/mrashi02/setup-master/setup/classes/SetupController.php(281): SetupController->onCheckDatabase()
+#2 /Users/mrashi02/setup-master/setup/classes/SetupController.php(46): SetupController->execPostHandler()
+#3 /Users/mrashi02/setup-master/setup/bootstrap.php(62): SetupController->__construct()
+#4 /Users/mrashi02/setup-master/setup.php(1): include_once('/Users/mrashi02...')
+#5 {main}
+[2023/05/22 03:43:36] => .============================ POST REQUEST ==========================.
+[2023/05/22 03:43:36] => Postback payload: Array
+(
+    [disableLog] => 1
+)
+
+[2023/05/22 03:43:36] => Database check: tastyigniter
+[2023/05/22 03:43:36] => Handler error (onCheckDatabase): Connection failed: SQLSTATE[HY000] [1049] Unknown database 'tastyigniter'
+[2023/05/22 03:43:36] => Trace log:
+#0 /Users/mrashi02/setup-master/setup/classes/SetupController.php(138): SetupController->testDbConnection(Array)
+#1 /Users/mrashi02/setup-master/setup/classes/SetupController.php(281): SetupController->onCheckDatabase()
+#2 /Users/mrashi02/setup-master/setup/classes/SetupController.php(46): SetupController->execPostHandler()
+#3 /Users/mrashi02/setup-master/setup/bootstrap.php(62): SetupController->__construct()
+#4 /Users/mrashi02/setup-master/setup.php(1): include_once('/Users/mrashi02...')
+#5 {main}
+[2023/05/22 03:43:37] => .============================ POST REQUEST ==========================.
+[2023/05/22 03:43:37] => Postback payload: Array
+(
+    [disableLog] => 1
+)
+
+[2023/05/22 03:43:37] => Database check: tastyigniter
+[2023/05/22 03:43:37] => Handler error (onCheckDatabase): Connection failed: SQLSTATE[HY000] [1049] Unknown database 'tastyigniter'
+[2023/05/22 03:43:37] => Trace log:
+#0 /Users/mrashi02/setup-master/setup/classes/SetupController.php(138): SetupController->testDbConnection(Array)
+#1 /Users/mrashi02/setup-master/setup/classes/SetupController.php(281): SetupController->onCheckDatabase()
+#2 /Users/mrashi02/setup-master/setup/classes/SetupController.php(46): SetupController->execPostHandler()
+#3 /Users/mrashi02/setup-master/setup/bootstrap.php(62): SetupController->__construct()
+#4 /Users/mrashi02/setup-master/setup.php(1): include_once('/Users/mrashi02...')
+#5 {main}
+[2023/05/22 03:43:38] => .============================ POST REQUEST ==========================.
+[2023/05/22 03:43:38] => Postback payload: Array
+(
+    [disableLog] => 1
+)
+
+[2023/05/22 03:43:38] => Database check: tastyigniter
+[2023/05/22 03:43:38] => Handler error (onCheckDatabase): Connection failed: SQLSTATE[HY000] [1049] Unknown database 'tastyigniter'
+[2023/05/22 03:43:38] => Trace log:
+#0 /Users/mrashi02/setup-master/setup/classes/SetupController.php(138): SetupController->testDbConnection(Array)
+#1 /Users/mrashi02/setup-master/setup/classes/SetupController.php(281): SetupController->onCheckDatabase()
+#2 /Users/mrashi02/setup-master/setup/classes/SetupController.php(46): SetupController->execPostHandler()
+#3 /Users/mrashi02/setup-master/setup/bootstrap.php(62): SetupController->__construct()
+#4 /Users/mrashi02/setup-master/setup.php(1): include_once('/Users/mrashi02...')
+#5 {main}
+[2023/05/22 03:43:39] => .============================ POST REQUEST ==========================.
+[2023/05/22 03:43:39] => Postback payload: Array
+(
+    [disableLog] => 1
+)
+
+[2023/05/22 03:43:39] => Database check: tastyigniter
+[2023/05/22 03:43:39] => Handler error (onCheckDatabase): Connection failed: SQLSTATE[HY000] [1049] Unknown database 'tastyigniter'
+[2023/05/22 03:43:39] => Trace log:
+#0 /Users/mrashi02/setup-master/setup/classes/SetupController.php(138): SetupController->testDbConnection(Array)
+#1 /Users/mrashi02/setup-master/setup/classes/SetupController.php(281): SetupController->onCheckDatabase()
+#2 /Users/mrashi02/setup-master/setup/classes/SetupController.php(46): SetupController->execPostHandler()
+#3 /Users/mrashi02/setup-master/setup/bootstrap.php(62): SetupController->__construct()
+#4 /Users/mrashi02/setup-master/setup.php(1): include_once('/Users/mrashi02...')
+#5 {main}
+[2023/05/22 03:43:39] => .============================ POST REQUEST ==========================.
+[2023/05/22 03:43:39] => Postback payload: Array
+(
+    [disableLog] => 1
+)
+
+[2023/05/22 03:43:39] => Database check: tastyigniter
+[2023/05/22 03:43:39] => Handler error (onCheckDatabase): Connection failed: SQLSTATE[HY000] [1049] Unknown database 'tastyigniter'
+[2023/05/22 03:43:39] => Trace log:
+#0 /Users/mrashi02/setup-master/setup/classes/SetupController.php(138): SetupController->testDbConnection(Array)
+#1 /Users/mrashi02/setup-master/setup/classes/SetupController.php(281): SetupController->onCheckDatabase()
+#2 /Users/mrashi02/setup-master/setup/classes/SetupController.php(46): SetupController->execPostHandler()
+#3 /Users/mrashi02/setup-master/setup/bootstrap.php(62): SetupController->__construct()
+#4 /Users/mrashi02/setup-master/setup.php(1): include_once('/Users/mrashi02...')
+#5 {main}
+[2023/05/22 03:43:39] => .============================ POST REQUEST ==========================.
+[2023/05/22 03:43:39] => Postback payload: Array
+(
+    [disableLog] => 1
+)
+
+[2023/05/22 03:43:39] => Database check: tastyigniter
+[2023/05/22 03:43:39] => Handler error (onCheckDatabase): Connection failed: SQLSTATE[HY000] [1049] Unknown database 'tastyigniter'
+[2023/05/22 03:43:39] => Trace log:
+#0 /Users/mrashi02/setup-master/setup/classes/SetupController.php(138): SetupController->testDbConnection(Array)
+#1 /Users/mrashi02/setup-master/setup/classes/SetupController.php(281): SetupController->onCheckDatabase()
+#2 /Users/mrashi02/setup-master/setup/classes/SetupController.php(46): SetupController->execPostHandler()
+#3 /Users/mrashi02/setup-master/setup/bootstrap.php(62): SetupController->__construct()
+#4 /Users/mrashi02/setup-master/setup.php(1): include_once('/Users/mrashi02...')
+#5 {main}
+[2023/05/22 03:43:39] => .============================ POST REQUEST ==========================.
+[2023/05/22 03:43:39] => Postback payload: Array
+(
+    [disableLog] => 1
+)
+
+[2023/05/22 03:43:39] => Database check: tastyigniter
+[2023/05/22 03:43:39] => Handler error (onCheckDatabase): Connection failed: SQLSTATE[HY000] [1049] Unknown database 'tastyigniter'
+[2023/05/22 03:43:39] => Trace log:
+#0 /Users/mrashi02/setup-master/setup/classes/SetupController.php(138): SetupController->testDbConnection(Array)
+#1 /Users/mrashi02/setup-master/setup/classes/SetupController.php(281): SetupController->onCheckDatabase()
+#2 /Users/mrashi02/setup-master/setup/classes/SetupController.php(46): SetupController->execPostHandler()
+#3 /Users/mrashi02/setup-master/setup/bootstrap.php(62): SetupController->__construct()
+#4 /Users/mrashi02/setup-master/setup.php(1): include_once('/Users/mrashi02...')
+#5 {main}
+[2023/05/22 03:43:40] => .============================ POST REQUEST ==========================.
+[2023/05/22 03:43:40] => Postback payload: Array
+(
+    [disableLog] => 1
+)
+
+[2023/05/22 03:43:40] => Database check: tastyigniter
+[2023/05/22 03:43:40] => Handler error (onCheckDatabase): Connection failed: SQLSTATE[HY000] [1049] Unknown database 'tastyigniter'
+[2023/05/22 03:43:40] => Trace log:
+#0 /Users/mrashi02/setup-master/setup/classes/SetupController.php(138): SetupController->testDbConnection(Array)
+#1 /Users/mrashi02/setup-master/setup/classes/SetupController.php(281): SetupController->onCheckDatabase()
+#2 /Users/mrashi02/setup-master/setup/classes/SetupController.php(46): SetupController->execPostHandler()
+#3 /Users/mrashi02/setup-master/setup/bootstrap.php(62): SetupController->__construct()
+#4 /Users/mrashi02/setup-master/setup.php(1): include_once('/Users/mrashi02...')
+#5 {main}
+[2023/05/22 03:43:40] => .============================ POST REQUEST ==========================.
+[2023/05/22 03:43:40] => Postback payload: Array
+(
+    [disableLog] => 1
+)
+
+[2023/05/22 03:43:40] => Database check: tastyigniter
+[2023/05/22 03:43:40] => Handler error (onCheckDatabase): Connection failed: SQLSTATE[HY000] [1049] Unknown database 'tastyigniter'
+[2023/05/22 03:43:40] => Trace log:
+#0 /Users/mrashi02/setup-master/setup/classes/SetupController.php(138): SetupController->testDbConnection(Array)
+#1 /Users/mrashi02/setup-master/setup/classes/SetupController.php(281): SetupController->onCheckDatabase()
+#2 /Users/mrashi02/setup-master/setup/classes/SetupController.php(46): SetupController->execPostHandler()
+#3 /Users/mrashi02/setup-master/setup/bootstrap.php(62): SetupController->__construct()
+#4 /Users/mrashi02/setup-master/setup.php(1): include_once('/Users/mrashi02...')
+#5 {main}
+[2023/05/22 03:43:40] => .============================ POST REQUEST ==========================.
+[2023/05/22 03:43:40] => Postback payload: Array
+(
+    [disableLog] => 1
+)
+
+[2023/05/22 03:43:40] => Database check: tastyigniter
+[2023/05/22 03:43:40] => Handler error (onCheckDatabase): Connection failed: SQLSTATE[HY000] [1049] Unknown database 'tastyigniter'
+[2023/05/22 03:43:40] => Trace log:
+#0 /Users/mrashi02/setup-master/setup/classes/SetupController.php(138): SetupController->testDbConnection(Array)
+#1 /Users/mrashi02/setup-master/setup/classes/SetupController.php(281): SetupController->onCheckDatabase()
+#2 /Users/mrashi02/setup-master/setup/classes/SetupController.php(46): SetupController->execPostHandler()
+#3 /Users/mrashi02/setup-master/setup/bootstrap.php(62): SetupController->__construct()
+#4 /Users/mrashi02/setup-master/setup.php(1): include_once('/Users/mrashi02...')
+#5 {main}
+[2023/05/22 03:43:41] => .============================ POST REQUEST ==========================.
+[2023/05/22 03:43:41] => Postback payload: Array
+(
+    [disableLog] => 1
+)
+
+[2023/05/22 03:43:41] => Database check: tastyigniter
+[2023/05/22 03:43:41] => Handler error (onCheckDatabase): Connection failed: SQLSTATE[HY000] [1049] Unknown database 'tastyigniter'
+[2023/05/22 03:43:41] => Trace log:
+#0 /Users/mrashi02/setup-master/setup/classes/SetupController.php(138): SetupController->testDbConnection(Array)
+#1 /Users/mrashi02/setup-master/setup/classes/SetupController.php(281): SetupController->onCheckDatabase()
+#2 /Users/mrashi02/setup-master/setup/classes/SetupController.php(46): SetupController->execPostHandler()
+#3 /Users/mrashi02/setup-master/setup/bootstrap.php(62): SetupController->__construct()
+#4 /Users/mrashi02/setup-master/setup.php(1): include_once('/Users/mrashi02...')
+#5 {main}
+[2023/05/22 03:43:56] => .============================ POST REQUEST ==========================.
+[2023/05/22 03:43:56] => Postback payload: Array
+(
+    [disableLog] => 1
+)
+
+[2023/05/22 03:43:56] => Database check: tastyingiter
+[2023/05/22 03:43:56] => Database tastyingiter +OK
+[2023/05/22 03:43:56] => Execute handler (onCheckDatabase): Array
+(
+    [step] => install
+    [settingsInstalled] => 1
+)
+
+[2023/05/22 03:44:06] => .============================ POST REQUEST ==========================.
+[2023/05/22 03:44:06] => Postback payload: Array
+(
+    [disableLog] => 1
+)
+
+[2023/05/22 03:44:06] => Foundation setup: apply
+[2023/05/22 03:44:06] => Server request: item/detail
+[2023/05/22 03:44:06] => Request information: Array
+(
+    [url] => https://api.tastyigniter.com/v2/item/detail
+    [content_type] => application/json
+    [http_code] => 200
+    [header_size] => 827
+    [request_size] => 142
+    [filetime] => -1
+    [ssl_verify_result] => 20
+    [redirect_count] => 0
+    [total_time] => 0.128589
+    [namelookup_time] => 0.001162
+    [connect_time] => 0.009264
+    [pretransfer_time] => 0.025821
+    [size_upload] => 229
+    [size_download] => 496
+    [speed_download] => 3857
+    [speed_upload] => 1780
+    [download_content_length] => 496
+    [upload_content_length] => 229
+    [starttransfer_time] => 0.025827
+    [redirect_time] => 0
+    [redirect_url] => 
+    [primary_ip] => 104.21.5.26
+    [certinfo] => Array
+        (
+        )
+
+    [primary_port] => 443
+    [local_ip] => 10.50.100.59
+    [local_port] => 57335
+    [http_version] => 3
+    [protocol] => 2
+    [ssl_verifyresult] => 0
+    [scheme] => HTTPS
+    [appconnect_time_us] => 25670
+    [connect_time_us] => 9264
+    [namelookup_time_us] => 1162
+    [pretransfer_time_us] => 25821
+    [redirect_time_us] => 0
+    [starttransfer_time_us] => 25827
+    [total_time_us] => 128589
+    [effective_method] => POST
+)
+
+[2023/05/22 03:44:06] => Server request: core/install
+[2023/05/22 03:44:07] => Request information: Array
+(
+    [url] => https://api.tastyigniter.com/v2/core/install
+    [content_type] => application/json
+    [http_code] => 200
+    [header_size] => 831
+    [request_size] => 143
+    [filetime] => -1
+    [ssl_verify_result] => 20
+    [redirect_count] => 0
+    [total_time] => 0.140948
+    [namelookup_time] => 0.001099
+    [connect_time] => 0.009349
+    [pretransfer_time] => 0.022903
+    [size_upload] => 229
+    [size_download] => 760
+    [speed_download] => 5392
+    [speed_upload] => 1624
+    [download_content_length] => 760
+    [upload_content_length] => 229
+    [starttransfer_time] => 0.02291
+    [redirect_time] => 0
+    [redirect_url] => 
+    [primary_ip] => 104.21.5.26
+    [certinfo] => Array
+        (
+        )
+
+    [primary_port] => 443
+    [local_ip] => 10.50.100.59
+    [local_port] => 57336
+    [http_version] => 3
+    [protocol] => 2
+    [ssl_verifyresult] => 0
+    [scheme] => HTTPS
+    [appconnect_time_us] => 22742
+    [connect_time_us] => 9349
+    [namelookup_time_us] => 1099
+    [pretransfer_time_us] => 22903
+    [redirect_time_us] => 0
+    [starttransfer_time_us] => 22910
+    [total_time_us] => 140948
+    [effective_method] => POST
+)
+
+[2023/05/22 03:44:07] => Foundation setup: apply +OK
+[2023/05/22 03:44:07] => Execute handler (onInstall): Array
+(
+    [result] => Array
+        (
+            [download] => Array
+                (
+                    [0] => Array
+                        (
+                            [action] => install
+                            [process] => downloadCore
+                            [code] => tastyigniter
+                            [name] => TastyIgniter
+                            [author] => Samuel Adepoyigi
+                            [description] => Powerful, yet easy to use, open source online food ordering, table reservation and restaurant management system
+                            [icon] => icon-logo icon-ti-text-logo
+                            [type] => core
+                            [hash] => 2dbe7047fd959a336ecbd538d33b2b548bb77a4d
+                            [version] => v3.6.9
+                            [package] => 
+                            [published_at] => 2023-05-03T17:35:49.000000Z
+                        )
+
+                    [1] => Array
+                        (
+                            [action] => install
+                            [process] => downloadTheme
+                            [code] => tastyigniter-orange
+                            [name] => Orange Theme
+                            [author] => TastyIgniter Dev Team
+                            [description] => Free Modern, Responsive and Clean TastyIgniter Theme based on Bootstrap.
+                            [icon] => fa-paint-brush
+                            [type] => theme
+                            [hash] => 9f81a4aa6f273902a4e4759567a3a95d5d0aa837
+                            [version] => v3.2.1
+                            [package] => tastyigniter/ti-theme-orange
+                            [published_at] => 2023-04-18T13:43:59.000000Z
+                        )
+
+                )
+
+            [extract] => Array
+                (
+                    [0] => Array
+                        (
+                            [action] => install
+                            [process] => extractCore
+                            [code] => tastyigniter
+                            [name] => TastyIgniter
+                            [author] => Samuel Adepoyigi
+                            [description] => Powerful, yet easy to use, open source online food ordering, table reservation and restaurant management system
+                            [icon] => icon-logo icon-ti-text-logo
+                            [type] => core
+                            [hash] => 2dbe7047fd959a336ecbd538d33b2b548bb77a4d
+                            [version] => v3.6.9
+                            [package] => 
+                            [published_at] => 2023-05-03T17:35:49.000000Z
+                        )
+
+                    [1] => Array
+                        (
+                            [action] => install
+                            [process] => extractTheme
+                            [code] => tastyigniter-orange
+                            [name] => Orange Theme
+                            [author] => TastyIgniter Dev Team
+                            [description] => Free Modern, Responsive and Clean TastyIgniter Theme based on Bootstrap.
+                            [icon] => fa-paint-brush
+                            [type] => theme
+                            [hash] => 9f81a4aa6f273902a4e4759567a3a95d5d0aa837
+                            [version] => v3.2.1
+                            [package] => tastyigniter/ti-theme-orange
+                            [published_at] => 2023-04-18T13:43:59.000000Z
+                        )
+
+                )
+
+            [config] => Array
+                (
+                    [0] => Array
+                        (
+                            [items] => Array
+                                (
+                                    [0] => Array
+                                        (
+                                            [code] => tastyigniter
+                                            [name] => TastyIgniter
+                                            [author] => Samuel Adepoyigi
+                                            [description] => Powerful, yet easy to use, open source online food ordering, table reservation and restaurant management system
+                                            [icon] => icon-logo icon-ti-text-logo
+                                            [type] => core
+                                            [hash] => 2dbe7047fd959a336ecbd538d33b2b548bb77a4d
+                                            [version] => v3.6.9
+                                            [package] => 
+                                            [published_at] => 2023-05-03T17:35:49.000000Z
+                                        )
+
+                                    [1] => Array
+                                        (
+                                            [code] => tastyigniter-orange
+                                            [name] => Orange Theme
+                                            [author] => TastyIgniter Dev Team
+                                            [description] => Free Modern, Responsive and Clean TastyIgniter Theme based on Bootstrap.
+                                            [icon] => fa-paint-brush
+                                            [type] => theme
+                                            [hash] => 9f81a4aa6f273902a4e4759567a3a95d5d0aa837
+                                            [version] => v3.2.1
+                                            [package] => tastyigniter/ti-theme-orange
+                                            [published_at] => 2023-04-18T13:43:59.000000Z
+                                        )
+
+                                )
+
+                            [process] => writeConfig
+                        )
+
+                )
+
+            [install] => Array
+                (
+                    [0] => Array
+                        (
+                            [items] => Array
+                                (
+                                    [0] => Array
+                                        (
+                                            [code] => tastyigniter
+                                            [name] => TastyIgniter
+                                            [author] => Samuel Adepoyigi
+                                            [description] => Powerful, yet easy to use, open source online food ordering, table reservation and restaurant management system
+                                            [icon] => icon-logo icon-ti-text-logo
+                                            [type] => core
+                                            [hash] => 2dbe7047fd959a336ecbd538d33b2b548bb77a4d
+                                            [version] => v3.6.9
+                                            [package] => 
+                                            [published_at] => 2023-05-03T17:35:49.000000Z
+                                        )
+
+                                    [1] => Array
+                                        (
+                                            [code] => tastyigniter-orange
+                                            [name] => Orange Theme
+                                            [author] => TastyIgniter Dev Team
+                                            [description] => Free Modern, Responsive and Clean TastyIgniter Theme based on Bootstrap.
+                                            [icon] => fa-paint-brush
+                                            [type] => theme
+                                            [hash] => 9f81a4aa6f273902a4e4759567a3a95d5d0aa837
+                                            [version] => v3.2.1
+                                            [package] => tastyigniter/ti-theme-orange
+                                            [published_at] => 2023-04-18T13:43:59.000000Z
+                                        )
+
+                                )
+
+                            [process] => finishInstall
+                        )
+
+                )
+
+        )
+
+)
+
+[2023/05/22 03:44:07] => .============================ POST REQUEST ==========================.
+[2023/05/22 03:44:07] => Postback payload: Array
+(
+    [disableLog] => 1
+)
+
+[2023/05/22 03:44:07] => Foundation setup: downloadCore
+[2023/05/22 03:44:09] => Downloaded file (tastyigniter) to /Users/mrashi02/setup-master/setup/temp/ef0eaeec4a461084eb2522e05b439f26.zip
+[2023/05/22 03:44:09] => Foundation setup: downloadCore +OK
+[2023/05/22 03:44:09] => Execute handler (onInstall): Array
+(
+    [result] => 1
+)
+
+[2023/05/22 03:44:09] => .============================ POST REQUEST ==========================.
+[2023/05/22 03:44:09] => Postback payload: Array
+(
+    [disableLog] => 1
+)
+
+[2023/05/22 03:44:09] => Foundation setup: downloadTheme
+[2023/05/22 03:44:10] => Downloaded file (tastyigniter-orange) to /Users/mrashi02/setup-master/setup/temp/d524ceb31a7e131d7d22e6398a45a960.zip
+[2023/05/22 03:44:10] => Foundation setup: downloadTheme +OK
+[2023/05/22 03:44:10] => Execute handler (onInstall): Array
+(
+    [result] => 1
+)
+
+[2023/05/22 03:44:10] => .============================ POST REQUEST ==========================.
+[2023/05/22 03:44:10] => Postback payload: Array
+(
+    [disableLog] => 1
+)
+
+[2023/05/22 03:44:10] => Foundation setup: extractCore
+[2023/05/22 03:44:10] => Extracting [tastyigniter] file ef0eaeec4a461084eb2522e05b439f26.zip
+[2023/05/22 03:44:15] => Foundation setup: extractCore +OK
+[2023/05/22 03:44:15] => Execute handler (onInstall): Array
+(
+    [result] => 1
+)
+
+[2023/05/22 03:44:15] => .============================ POST REQUEST ==========================.
+[2023/05/22 03:44:15] => Postback payload: Array
+(
+    [disableLog] => 1
+)
+
+[2023/05/22 03:44:15] => Foundation setup: extractTheme
+[2023/05/22 03:44:15] => Extracting [tastyigniter-orange] file d524ceb31a7e131d7d22e6398a45a960.zip
+[2023/05/22 03:44:15] => Foundation setup: extractTheme +OK
+[2023/05/22 03:44:15] => Execute handler (onInstall): Array
+(
+    [result] => 1
+)
+
+[2023/05/22 03:44:16] => .============================ POST REQUEST ==========================.
+[2023/05/22 03:44:16] => Postback payload: Array
+(
+    [disableLog] => 1
+)
+
+[2023/05/22 03:44:16] => Foundation setup: writeConfig
+[2023/05/22 04:44:16] => Foundation setup: writeConfig +OK
+[2023/05/22 04:44:16] => Execute handler (onInstall): Array
+(
+    [result] => 1
+)
+
+[2023/05/22 03:44:17] => .============================ POST REQUEST ==========================.
+[2023/05/22 03:44:17] => Postback payload: Array
+(
+    [disableLog] => 1
+)
+
+[2023/05/22 03:44:17] => Foundation setup: finishInstall
+[2023/05/22 04:44:17] => Handler error (onInstall): Trying to access array offset on value of type null
+[2023/05/22 04:44:17] => Trace log:
+#0 /Users/mrashi02/setup-master/setup/classes/SetupController.php(585): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'Trying to acces...', '/Users/mrashi02...', 585)
+#1 /Users/mrashi02/setup-master/setup/classes/SetupController.php(470): SetupController->setSeederProperties(NULL)
+#2 /Users/mrashi02/setup-master/setup/classes/SetupController.php(253): SetupController->completeSetup()
+#3 /Users/mrashi02/setup-master/setup/classes/SetupController.php(281): SetupController->onInstall()
+#4 /Users/mrashi02/setup-master/setup/classes/SetupController.php(46): SetupController->execPostHandler()
+#5 /Users/mrashi02/setup-master/setup/bootstrap.php(62): SetupController->__construct()
+#6 /Users/mrashi02/setup-master/setup.php(1): include_once('/Users/mrashi02...')
+#7 {main}
